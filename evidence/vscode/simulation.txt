@@ -2,3 +2,9 @@
 VCD info: dumpfile wave.vcd opened for output.
 PASS ADC: 3 serial frames, command bits, sample, reset
 C:\Users\sumin\fpga\adc\sim\tb_adc.sv:45: $finish called at 2016000 (1ps)
+
+[2] FAIL 로그
+FATAL: C:\Users\sumin\fpga\adc\sim\tb_adc.sv:33: ADC sample
+       Time: 686000  Scope: tb
+
+ERROR: 종료 코드 1: C:\Users\sumin\fpga\adc\build\sim\run-24881615b7544a84be50a5e9e447ca55\simulation.log

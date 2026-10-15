@@ -26,7 +26,7 @@ module serial_frame16 #(parameter HALF_CYCLES=25)(
                 if(sclk) begin sclk<=0; mosi<=tx_latched[bit_index]; end
                 else begin
                     sclk<=1;
-                    rx_word<={rx_word[14:0],miso};
+                    rx_word<={miso,rx_word[15:1]};
                     if(bit_index==0) begin busy<=0; cs_n<=1; done<=1; end
                     else bit_index<=bit_index-1'b1;
                 end
