@@ -1,0 +1,4 @@
+[1] PASS 로그
+VCD info: dumpfile wave.vcd opened for output.
+PASS ADC: 3 serial frames, command bits, sample, reset
+C:\Users\sumin\fpga\adc\sim\tb_adc.sv:45: $finish called at 2016000 (1ps)

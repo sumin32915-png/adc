@@ -1,5 +1,5 @@
 {
-  "sources": ["src/design.v"],
-  "testbench": "sim/tb_design.v",
-  "simulation_top": "tb_design"
+  "sources": ["src/adc.v", "src/adc_command.v", "src/serial_frame16.v"],
+  "testbench": "sim/tb_adc.sv",
+  "simulation_top": "tb"
 }
